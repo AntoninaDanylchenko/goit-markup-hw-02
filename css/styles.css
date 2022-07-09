@@ -1,0 +1,112 @@
+/* основний колір тексту */
+/* другорядний колір тексту  */
+/* контакти в футері */
+/* текст на темному */
+/* акцент  */
+/* бекграунд основний #E5E5E5 */
+/* бекграунд герой і футер #2F303A */
+/* бекгр хедер  */
+/* бекграунд команд  */
+:root {
+	--brand-color: #2196f3;
+	--text-color: #757575;
+	--title-text-color: #212121;
+	--white-color: #ffffff;
+	--black-color: #000000;
+	--footer-contact-color: rgba(255, 255, 255, 0.6);
+	--fon-color: #e5e5e5;
+	--dark-fon: #2f303a;
+	--comand-fon: #f5f4fa;
+}
+.page {
+	background-color: var(--white-color);
+	color: var(--text-color);
+}
+ul {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+/* index.html */
+/* header */
+.logo-header {
+	color: var(--black-color);
+}
+.logo-blue {
+	color: var(--brand-color);
+}
+/* site nav */
+.site-nav .link {
+	color: var(--title-text-color);
+}
+.link:hover,
+.link:focus,
+.adress-link:hover,
+.adress-link:focus {
+	color: var(--brand-color);
+}
+.site-nav .link.current {
+	color: var(--brand-color);
+}
+/* contacts nav */
+.contacts .link {
+	color: var(--text-color);
+}
+.contacts .link:hover,
+.contacts .link:focus {
+	color: var(--brand-color);
+}
+/* hero */
+.hero {
+	background-color: var(--dark-fon);
+}
+.hero-title {
+	color: var(--white-color);
+}
+.button {
+	color: var(--white-color);
+	background-color: var(--brand-color);
+	border-color: var(--brand-color);
+}
+/* section feature */
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+.feature-title,
+.section-title,
+.name-comand {
+	color: var(--title-text-color);
+}
+/* section what we do */
+
+/* comand section */
+.comand {
+	background-color: var(--comand-fon);
+}
+.comand-link {
+	background-color: var(--white-color);
+}
+/* footer */
+.page-footer {
+	background-color: var(--dark-fon);
+}
+.footer-logo {
+	color: var(--white-color);
+}
+.footer-contacts {
+	color: var(--footer-contact-color);
+}
+.adress-link {
+	color: var(--white-color);
+}
+/* portfolio.html */
